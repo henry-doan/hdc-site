@@ -1,16 +1,10 @@
 import React from 'react';
-import { HBtn, TopBtn, RtBtn, BottomBtn, LtBtn } from '../styledComponents/homeStyles';
+import YouTubeBtn from './YouTubeBtn';
 
 const Home = () => (
   <>
     Home
-    <HBtn href='/'>
-      <TopBtn></TopBtn>
-      <RtBtn></RtBtn>
-      <BottomBtn></BottomBtn>
-      <LtBtn></LtBtn>
-      Modules
-    </HBtn>
+    <YouTubeBtn />
   </>
 )
 
