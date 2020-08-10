@@ -3,7 +3,6 @@ import YouTubeBtn from './YouTubeBtn';
 
 const Home = () => (
   <>
-    Home
     <YouTubeBtn />
   </>
 )

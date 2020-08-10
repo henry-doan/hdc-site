@@ -6,7 +6,7 @@ const Navbar = () => {
   const [activeItem, SetActiveItem] = useState('home')
 
   return (
-    <Menu secondary>
+    <Menu secondary inverted>
       <Link to='/'>
         <Menu.Item
           name='Home'

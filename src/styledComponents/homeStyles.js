@@ -7,7 +7,7 @@ export const TopBtn = styled.span`
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #2196f3);
+  background: linear-gradient(90deg, transparent, white);
 `
 
 export const BottomBtn = styled.span`
@@ -17,7 +17,7 @@ export const BottomBtn = styled.span`
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, #2196f3);
+  background: linear-gradient(270deg, transparent, white);
 `
 
 export const RtBtn = styled.span`
@@ -27,7 +27,7 @@ export const RtBtn = styled.span`
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #2196f3);
+  background: linear-gradient(180deg, transparent, white);
 `
 
 export const LtBtn = styled.span`
@@ -37,23 +37,24 @@ export const LtBtn = styled.span`
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, #2196f3);
+  background: linear-gradient(360deg, transparent, white);
 `
 
 export const HBtn = styled.a`
   position: relative;
   display: inline-block;
   padding: 15px 30px;
-  color: #2196f3;
+  color: #DEFCFD;
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
   font-size: 24px;
   overflow: hidden;
   transition: 0.2s;
+  border: 1px solid white;
 
   &:hover {
-    color: #255784;
+    color: white;
     background: #2196f3;
     box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
     transition-delay: 1s;
