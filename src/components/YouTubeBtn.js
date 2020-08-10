@@ -5,7 +5,7 @@ import { HBtn, TopBtn, RtBtn, BottomBtn, LtBtn } from '../styledComponents/homeS
 const YouTubeBtn = () => (
   <>
     {
-      videos.map( v => 
+      videos.reverse().map( v => 
         <HBtn href={v.link} target='_blank' key={v.id}>
           <TopBtn></TopBtn>
           <RtBtn></RtBtn>
