@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Label, Grid } from 'semantic-ui-react';
 
 export const TopBtn = styled.span`
   position: absolute;
@@ -81,5 +82,17 @@ export const HBtn = styled.a`
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
+  }
+`
+
+export const Latest = styled(Label)`
+  bottom: 20px;
+`
+
+export const LatestCol = styled(Grid.Column)`
+  padding-right: 100px !important;
+
+  @media (max-width: 768px) {
+    right: 45px !important;
   }
 `
