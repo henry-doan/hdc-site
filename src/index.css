@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media screen and (max-width: 993px) {
+  .ui[class*="right pointing"].label:before {
+    top: 100%;
+    right: 35px;
+  } 
+}
+@media screen and (max-width: 768px) {
+  .ui[class*="right pointing"].label:before {
+    top: 50% !important;
+    right: 0 !important;
+  } 
+}

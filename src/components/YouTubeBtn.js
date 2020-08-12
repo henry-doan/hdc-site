@@ -8,7 +8,7 @@ const YouTubeBtn = () => (
     <Header>Videos</Header>
     <Grid columns={2} stackable textAlign='center'>
       {
-        videos.reverse().map( v => {
+        videos.slice(0).reverse().map( v => {
           if (v.id === videos.length) {
             return (
               <LatestCol>
