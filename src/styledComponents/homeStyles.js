@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Label, Grid } from 'semantic-ui-react';
+import { Label, Grid, Menu } from 'semantic-ui-react';
 
 export const TopBtn = styled.span`
   position: absolute;
@@ -95,4 +95,8 @@ export const LatestCol = styled(Grid.Column)`
   @media (max-width: 768px) {
     right: 45px !important;
   }
+`
+
+export const NavSec = styled(Menu)`
+  justify-content: center;
 `
