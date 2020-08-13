@@ -5,7 +5,7 @@ import { Grid, Container, Header, Label } from 'semantic-ui-react';
 
 const YouTubeBtn = () => (
   <Container>
-    <Header>Videos</Header>
+    <Header size='huge'>Coding Concepts:</Header>
     <Grid columns={2} stackable textAlign='center'>
       {
         videos.slice(0).reverse().map( v => {
