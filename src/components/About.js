@@ -12,7 +12,9 @@ const About = () => (
     />
     <PgTitle>About</PgTitle>
     <AboutTxt>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    My name Henry Doan I am the fastest coder alive 💻! ... well, I'm getting there. But welcome to my YouTube videos page, an ongoing project to showcase my latest programming concepts and tutorials. I started to make videos as a resource with a twist of explaining things. A bit about me is that I have taken quite a few programming classes and got some certificates and degrees 🎓 but the most that I ever learn and grew was by attending a coding boot camp 🥾 from DevPoint Labs where I got to found my calling in web development and education and ended up working for them for a few years up until now, developing projects and teaching classes. With all my knowledge and experience 🧠, I am now proficient to create content to share my knowledge with the world 🌎! 
+    <br />
+    Enjoy! 
     </AboutTxt>
   </Container>
 )
