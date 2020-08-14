@@ -1,7 +1,7 @@
 import React from 'react';
 import { videos } from './videosData';
 import { HBtn, TopBtn, RtBtn, BottomBtn, LtBtn, Latest, LatestCol } from '../styledComponents/homeStyles';
-import { Grid, Container, Header, Label } from 'semantic-ui-react';
+import { Grid, Container } from 'semantic-ui-react';
 
 const YouTubeBtn = () => (
   <Container>
