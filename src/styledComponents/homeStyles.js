@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { Label, Grid, Menu } from 'semantic-ui-react';
+import styled, { keyframes } from 'styled-components';
+import { Label, Grid, Menu, Image } from 'semantic-ui-react';
 
 export const TopBtn = styled.span`
   position: absolute;
@@ -103,4 +103,52 @@ export const LatestCol = styled(Grid.Column)`
 
 export const NavSec = styled(Menu)`
   justify-content: center;
+`
+
+export const AboutTxt = styled.p`
+  color: white;
+  font-size: 24px;
+  margin-top: 20px;
+
+  @media (max-width: 768px) {
+    padding: 0 50px;
+  }
+`
+
+export const PgTitle = styled.h1`
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+`
+
+const flipper = keyframes`
+  from {
+    -webkit-transform: rotateY(0deg); 
+    -moz-transform: rotateY(0deg); 
+    transform: rotateY(0deg) !important;   
+  }
+
+  to {
+    -webkit-transform: rotateY(360deg); 
+    -moz-transform: rotateY(360deg); 
+    transform: rotateY(360deg) !important;   
+  }
+`
+
+export const NoMatchLogo = styled(Image)`
+  position: relative !important;
+  -moz-animation-name: ${flipper};
+  -moz-animation-duration: 2s;
+  -moz-animation-delay: 2s;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-name: ${flipper};
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: ${flipper} !important;
+  animation-duration: 2s !important;
+  animation-delay: 2s !important;
+  animation-iteration-count: infinite !important;
 `

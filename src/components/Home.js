@@ -1,6 +1,7 @@
 import React from 'react';
 import YouTubeBtn from './YouTubeBtn';
 import { Image } from 'semantic-ui-react';
+import { PgTitle } from '../styledComponents/homeStyles';
 
 const Home = () => (
   <>
@@ -10,6 +11,7 @@ const Home = () => (
       circular 
       centered
     />
+    <PgTitle>Coding Concepts:</PgTitle>
     <YouTubeBtn />
   </>
 )

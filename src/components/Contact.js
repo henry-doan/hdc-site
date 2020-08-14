@@ -1,5 +1,6 @@
 import React from 'react';
 import { Image } from 'semantic-ui-react';
+import { PgTitle } from '../styledComponents/homeStyles';
 
 const Contact = () => (
   <>
@@ -9,7 +10,7 @@ const Contact = () => (
       circular 
       centered
     />
-    Contact
+    <PgTitle>Coming Soon!</PgTitle>
   </>
 )
 
