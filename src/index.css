@@ -12,15 +12,22 @@ code {
     monospace;
 }
 
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 1200px) {
   .ui[class*="right pointing"].label:before {
-    top: 100%;
-    right: 35px;
+    top: 100% !important;
+    right: 35px !important;
   } 
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 767px) {
   .ui[class*="right pointing"].label:before {
     top: 50% !important;
     right: 0 !important;
+  } 
+}
+@media screen and (max-width: 544px) {
+  .ui[class*="right pointing"].label:before {
+    top: 100% !important;
+    right: 35px !important;
   } 
 }

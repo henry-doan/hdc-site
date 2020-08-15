@@ -90,14 +90,14 @@ export const Latest = styled(Label)`
 `
 
 export const LatestCol = styled(Grid.Column)`
-  padding-right: 100px !important;
+  padding-right: 45px !important;
 
   @media (max-width: 1200px) {
     padding-right: 60px !important;
   }
 
   @media (max-width: 768px) {
-    right: 45px !important;
+    right: 0px !important;
   }
 `
 

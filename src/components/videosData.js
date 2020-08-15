@@ -79,4 +79,9 @@ export const videos = [
     title: 'W.E.T vs. D.R.Y',
     link: 'https://youtu.be/2gpBU4LExHU',
   },
+  {
+    id: 17,
+    title: 'Spacing & Indentation',
+    link: 'https://youtu.be/yj3M1Mi4PP8',
+  },
 ]
