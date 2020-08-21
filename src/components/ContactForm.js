@@ -44,20 +44,23 @@ class ContactForm extends Component {
           value={from_name}
           onChange={this.handleChange}
           required
+          placeholder='Your Name'
         />
         <Form.Input
           name='reply_to'
           value={reply_to}
           onChange={this.handleChange}
           required
+          placeholder='Your Email'
         />
         <Form.TextArea
           name='message_html'
           value={message_html}
           onChange={this.handleChange}
           required
+          placeholder='Message'
         />
-        <Form.Button>
+        <Form.Button primary>
           Send
         </Form.Button>
       </Form>

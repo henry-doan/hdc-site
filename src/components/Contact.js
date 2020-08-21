@@ -12,7 +12,13 @@ const Contact = () => (
       centered
     />
     <PgTitle>Contact</PgTitle>
-    <Grid columns={2} stackable divided textAlign='center'>
+    <Grid 
+      columns={2} 
+      stackable 
+      divided 
+      textAlign='center'
+      verticalAlign='middle'
+    >
       <Grid.Column>
         <SocialTitle>Social Media</SocialTitle>
         <SocialSubTitle>Follow me for updates!</SocialSubTitle>
