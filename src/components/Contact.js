@@ -1,6 +1,7 @@
 import React from 'react';
 import { Image } from 'semantic-ui-react';
 import { PgTitle } from '../styledComponents/homeStyles';
+import ContactForm from './ContactForm';
 
 const Contact = () => (
   <>
@@ -11,6 +12,12 @@ const Contact = () => (
       centered
     />
     <PgTitle>Coming Soon!</PgTitle>
+    <h1>Social Media</h1>
+    <Icon name='twitter' />
+    <Icon name='youtube' />
+    <Icon name='instagram' />
+    <hr />
+    <ContactForm />
   </>
 )
 
