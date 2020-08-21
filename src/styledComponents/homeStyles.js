@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components';
-import { Label, Grid, Menu, Image } from 'semantic-ui-react';
+import { Label, Grid, Menu, Image, Icon } from 'semantic-ui-react';
 
 export const TopBtn = styled.span`
   position: absolute;
@@ -151,4 +151,28 @@ export const NoMatchLogo = styled(Image)`
   animation-duration: 2s !important;
   animation-delay: 2s !important;
   animation-iteration-count: infinite !important;
+`
+
+export const Ig = styled(Icon)`
+  color: transparent;
+  background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text; 
+`
+
+export const Yt = styled(Icon)`
+  color: #FF0000;
+`
+
+export const SocialTitle = styled.h1`
+  color: white;
+  margin-bottom: 0;
+`
+
+export const SocialSubTitle = styled.p`
+  color: white;
+  margin-bottom: 30px;
 `
