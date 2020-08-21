@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image } from 'semantic-ui-react';
+import { Image, Icon } from 'semantic-ui-react';
 import { PgTitle } from '../styledComponents/homeStyles';
 import ContactForm from './ContactForm';
 
