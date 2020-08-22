@@ -84,4 +84,9 @@ export const videos = [
     title: 'Spacing & Indentation',
     link: 'https://youtu.be/yj3M1Mi4PP8',
   },
+  {
+    id: 18,
+    title: 'Objects',
+    link: 'https://youtu.be/B-o74ofidjY',
+  },
 ]

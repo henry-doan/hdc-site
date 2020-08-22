@@ -60,7 +60,8 @@ class ContactForm extends Component {
           required
           placeholder='Message'
         />
-        <Form.Button primary>
+        <Form.Button primaryart
+        >
           Send
         </Form.Button>
       </Form>
