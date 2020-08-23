@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Form } from 'semantic-ui-react';
 import emailjs from 'emailjs-com';
+import { MainBtn, TopBtn, RtBtn, BottomBtn, LtBtn } from '../styledComponents/homeStyles';
 
 class ContactForm extends Component {
   state = { from_name: '', reply_to: '', message_html: '' }
@@ -60,10 +61,13 @@ class ContactForm extends Component {
           required
           placeholder='Message'
         />
-        <Form.Button primaryart
-        >
+        <MainBtn type='submit'>
+          <TopBtn></TopBtn>
+          <RtBtn></RtBtn>
+          <BottomBtn></BottomBtn>
+          <LtBtn></LtBtn>
           Send
-        </Form.Button>
+        </MainBtn>
       </Form>
     )
   }

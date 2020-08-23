@@ -176,3 +176,47 @@ export const SocialSubTitle = styled.p`
   color: white;
   margin-bottom: 30px;
 `
+
+export const MainBtn = styled.button`
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #DEFCFD;
+  background: transparent;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 18px;
+  overflow: hidden;
+  transition: 0.2s;
+  border: 1px solid white;
+
+  &:hover {
+    color: white;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 1s;
+  }
+
+  &:hover ${TopBtn} {
+    left: 100%;
+    transition: 1s;
+  }
+
+  &:hover ${BottomBtn} {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+  }
+
+  &:hover ${RtBtn} {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+  }
+
+  &:hover ${LtBtn} {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+  }
+`
