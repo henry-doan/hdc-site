@@ -2,6 +2,7 @@ import React from 'react';
 import { videos } from './videosData';
 import { HBtn, TopBtn, RtBtn, BottomBtn, LtBtn, Latest, LatestCol } from '../styledComponents/homeStyles';
 import { Grid, Container } from 'semantic-ui-react';
+import { Fade } from 'react-reveal';
 
 const YouTubeBtn = () => (
   <Container>
@@ -26,13 +27,15 @@ const YouTubeBtn = () => (
           } else {
             return (
               <Grid.Column>
-                <HBtn href={v.link} target='_blank' key={v.id}>
-                  <TopBtn></TopBtn>
-                  <RtBtn></RtBtn>
-                  <BottomBtn></BottomBtn>
-                  <LtBtn></LtBtn>
-                  { v.title }
-                </HBtn>
+                <Fade bottom>
+                  <HBtn href={v.link} target='_blank' key={v.id}>
+                    <TopBtn></TopBtn>
+                    <RtBtn></RtBtn>
+                    <BottomBtn></BottomBtn>
+                    <LtBtn></LtBtn>
+                    { v.title }
+                  </HBtn>
+                </Fade>
               </Grid.Column>
             )
           }
