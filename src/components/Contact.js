@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon, Grid, Container, Image } from 'semantic-ui-react';
-import { PgTitle, Ig, Yt, SocialTitle, SocialSubTitle, ContactLogo } from '../styledComponents/homeStyles';
+import { PgTitle, Ig, Yt, SocialTitle, SocialSubTitle } from '../styledComponents/homeStyles';
 import ContactForm from './ContactForm';
 import { Bounce, Slide, Fade } from 'react-reveal';
 

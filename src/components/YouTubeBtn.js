@@ -11,11 +11,11 @@ const YouTubeBtn = () => (
         videos.slice(0).reverse().map( v => {
           if (v.id === videos.length) {
             return (
-              <LatestCol>
+              <LatestCol key={v.id}>
                 <Latest color='blue' tag pointing='right'>
                   Latest
                 </Latest>
-                <HBtn href={v.link} target='_blank' key={v.id}>
+                <HBtn href={v.link} target='_blank'>
                   <TopBtn></TopBtn>
                   <RtBtn></RtBtn>
                   <BottomBtn></BottomBtn>
@@ -26,9 +26,9 @@ const YouTubeBtn = () => (
             )
           } else {
             return (
-              <Grid.Column>
+              <Grid.Column key={v.id}>
                 <Fade bottom>
-                  <HBtn href={v.link} target='_blank' key={v.id}>
+                  <HBtn href={v.link} target='_blank'>
                     <TopBtn></TopBtn>
                     <RtBtn></RtBtn>
                     <BottomBtn></BottomBtn>
