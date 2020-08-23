@@ -220,3 +220,55 @@ export const MainBtn = styled.button`
     transition-delay: 0.75s;
   }
 `
+
+const bounce = keyframes`
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  } 
+  40% {
+    -moz-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  } 
+  60% {
+    -moz-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }   
+`
+
+export const ContactLogo = styled(Image)`
+  position: relative !important;
+  -moz-animation-name: ${bounce};
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 1s;
+  -moz-animation-iteration-count: 3;
+  -webkit-animation-name: ${bounce};
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 3;
+  -webkit-animation-fill-mode: both; 
+  animation-fill-mode: both; 
+  animation-name: ${bounce} !important;
+  animation-duration: 1s !important;
+  animation-delay: 1s !important;
+  animation-iteration-count: 3 !important;
+`
+
+export const AboutLogo = styled(Image)`
+  position: relative !important;
+  -moz-animation-name: ${flipper};
+  -moz-animation-duration: 2s;
+  -moz-animation-delay: 2s;
+  -moz-animation-iteration-count: 3;
+  -webkit-animation-name: ${flipper};
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: 3;
+  animation-name: ${flipper} !important;
+  animation-duration: 2s !important;
+  animation-delay: 2s !important;
+  animation-iteration-count: 3 !important;
+`

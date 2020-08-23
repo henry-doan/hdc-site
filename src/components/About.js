@@ -1,10 +1,10 @@
 import React from 'react';
-import { Image, Container } from 'semantic-ui-react';
-import { AboutTxt, PgTitle } from '../styledComponents/homeStyles';
+import { Container } from 'semantic-ui-react';
+import { AboutTxt, PgTitle, AboutLogo } from '../styledComponents/homeStyles';
 
 const About = () => (
   <Container>
-    <Image 
+    <AboutLogo 
       src='https://res.cloudinary.com/doan/image/upload/v1597276217/logo_vwe97g.png' 
       size='medium' 
       circular 

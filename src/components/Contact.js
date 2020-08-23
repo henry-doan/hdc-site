@@ -1,11 +1,11 @@
 import React from 'react';
-import { Image, Icon, Grid, Container } from 'semantic-ui-react';
-import { PgTitle, Ig, Yt, SocialTitle, SocialSubTitle } from '../styledComponents/homeStyles';
+import { Icon, Grid, Container } from 'semantic-ui-react';
+import { PgTitle, Ig, Yt, SocialTitle, SocialSubTitle, ContactLogo } from '../styledComponents/homeStyles';
 import ContactForm from './ContactForm';
 
 const Contact = () => (
   <Container>
-    <Image 
+    <ContactLogo 
       src='https://res.cloudinary.com/doan/image/upload/v1597276217/logo_vwe97g.png' 
       size='medium' 
       circular 
