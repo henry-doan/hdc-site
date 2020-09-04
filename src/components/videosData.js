@@ -94,4 +94,9 @@ export const videos = [
     title: 'Classes',
     link: 'https://youtu.be/H38ZvFqAWxA',
   },
+  {
+    id: 20,
+    title: 'Classes Pt. 2',
+    link: 'https://youtu.be/U09uXU7A55g',
+  },
 ]
