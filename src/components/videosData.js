@@ -96,7 +96,12 @@ export const videos = [
   },
   {
     id: 20,
-    title: 'Classes Pt. 2',
+    title: 'Instance Vs Class',
     link: 'https://youtu.be/U09uXU7A55g',
+  },
+  {
+    id: 21,
+    title: 'Encapsulation',
+    link: 'https://youtu.be/YivAJWcnizo',
   },
 ]
