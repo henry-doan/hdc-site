@@ -104,4 +104,9 @@ export const videos = [
     title: 'Encapsulation',
     link: 'https://youtu.be/YivAJWcnizo',
   },
+  {
+    id: 22,
+    title: 'Inheritance',
+    link: 'https://youtu.be/UC1IdjoxvLo',
+  },
 ]

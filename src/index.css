@@ -19,19 +19,19 @@ code {
   } 
 }
 
-/* @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .ui[class*="right pointing"].label:before {
     top: 50% !important;
     right: 0 !important;
   } 
-} */
+}
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .ui[class*="right pointing"].label:before {
     top: 100% !important;
     right: 35px !important;
   } 
-}
+} */
 
 .reacreveal {
   height: 51px !important;
