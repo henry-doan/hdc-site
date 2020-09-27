@@ -109,4 +109,9 @@ export const videos = [
     title: 'Inheritance',
     link: 'https://youtu.be/UC1IdjoxvLo',
   },
+  {
+    id: 23,
+    title: 'Polymorphism',
+    link: 'https://youtu.be/JrRsY1k2Q4A',
+  },
 ]
