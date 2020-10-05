@@ -114,4 +114,9 @@ export const videos = [
     title: 'Polymorphism',
     link: 'https://youtu.be/JrRsY1k2Q4A',
   },
+  {
+    id: 24,
+    title: 'Weird Symbols',
+    link: 'https://youtu.be/S8UaEUQiOYc',
+  },
 ]
