@@ -119,4 +119,9 @@ export const videos = [
     title: 'Weird Symbols',
     link: 'https://youtu.be/S8UaEUQiOYc',
   },
+  {
+    id: 25,
+    title: 'Lorem Ipsum',
+    link: 'https://youtu.be/-eWWBDS6HkE',
+  },
 ]
