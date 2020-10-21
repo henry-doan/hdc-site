@@ -124,4 +124,9 @@ export const videos = [
     title: 'Lorem Ipsum',
     link: 'https://youtu.be/-eWWBDS6HkE',
   },
+  {
+    id: 26,
+    title: 'HTML Enities',
+    link: 'https://youtu.be/4GWkxBvTVhM',
+  },
 ]
