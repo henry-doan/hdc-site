@@ -129,4 +129,9 @@ export const videos = [
     title: 'HTML Enities',
     link: 'https://youtu.be/4GWkxBvTVhM',
   },
+  {
+    id: 27,
+    title: 'History of the Web',
+    link: 'https://youtu.be/d_MIuEZfT5I',
+  },
 ]
