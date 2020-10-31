@@ -134,4 +134,9 @@ export const videos = [
     title: 'History of the Web',
     link: 'https://youtu.be/d_MIuEZfT5I',
   },
+  {
+    id: 28,
+    title: 'Halloween Marathon',
+    link: 'https://youtu.be/vgJbruWB1ao',
+  },
 ]
