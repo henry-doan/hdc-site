@@ -139,4 +139,9 @@ export const videos = [
     title: 'Halloween Marathon',
     link: 'https://youtu.be/vgJbruWB1ao',
   },
+  {
+    id: 29,
+    title: 'Code Smells',
+    link: 'https://youtu.be/JyEzKh9myJc',
+  },
 ]
