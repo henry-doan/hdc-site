@@ -144,4 +144,9 @@ export const videos = [
     title: 'Code Smells',
     link: 'https://youtu.be/JyEzKh9myJc',
   },
+  {
+    id: 30,
+    title: 'Relationships',
+    link: 'https://youtu.be/TJT8inY1DLw',
+  },
 ]
