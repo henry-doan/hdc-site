@@ -149,4 +149,9 @@ export const videos = [
     title: 'Relationships',
     link: 'https://youtu.be/TJT8inY1DLw',
   },
+  {
+    id: 31,
+    title: 'Tree Diagram',
+    link: 'https://youtu.be/HzE_lNKk5qo',
+  },
 ]
