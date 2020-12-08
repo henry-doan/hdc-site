@@ -154,4 +154,9 @@ export const videos = [
     title: 'Tree Diagram',
     link: 'https://youtu.be/HzE_lNKk5qo',
   },
+  {
+    id: 32,
+    title: 'Queues',
+    link: 'https://youtu.be/CsGoMxxx40A',
+  },
 ]
