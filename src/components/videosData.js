@@ -159,4 +159,9 @@ export const videos = [
     title: 'Queues',
     link: 'https://youtu.be/CsGoMxxx40A',
   },
+  {
+    id: 33,
+    title: 'Stack',
+    link: 'https://youtu.be/_cU9vQhHavo',
+  },
 ]
