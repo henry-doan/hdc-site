@@ -7,7 +7,7 @@ import Snowfall from 'react-snowfall';
 
 const Contact = () => (
   <>
-    <Snowfall />
+    <Snowfall snowflakeCount={750} style={{ height: 900 }} className='snow' />
     <Container>
       <Bounce top>
         <Image 

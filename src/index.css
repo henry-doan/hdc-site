@@ -24,6 +24,10 @@ code {
     top: 50% !important;
     right: 0 !important;
   } 
+
+  .snow {
+    height: 6000
+  }
 }
 
 /* @media screen and (max-width: 500px) {

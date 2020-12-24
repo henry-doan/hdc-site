@@ -6,7 +6,7 @@ import Snowfall from 'react-snowfall';
 
 const About = () => (
   <>
-    <Snowfall />
+    <Snowfall snowflakeCount={750} style={{ height: 900 }}className='snow' />
     <Container>
       <Roll top>
         <Image 
